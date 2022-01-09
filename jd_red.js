@@ -1,4 +1,5 @@
 /*
+faker库修改而来，变更为自己的链接，请勿使用
 2022年年货节京享红包活动🧧
 ck1助力 作者
 其余助力ck1
@@ -57,9 +58,9 @@ let nowTime = new Date().getTime() + new Date().getTimezoneOffset()*60*1000 + 8*
     }
   }
   if(message){
-    $.msg($.name, ``, `${message}\nhttps://u.jd.com/SCMjnig\n\n跳转到app 可查看助力情况`);
+    $.msg($.name, ``, `${message}\nhttps://u.jd.com/StM9pHT\n\n跳转到app 可查看助力情况`);
     if ($.isNode()){
-      await notify.sendNotify(`${$.name}`, `${message}\n\nhttps://u.jd.com/SCMjnig\n跳转到app 可查看助力情况`);
+      await notify.sendNotify(`${$.name}`, `${message}\n\nhttps://u.jd.com/StM9pHT\n跳转到app 可查看助力情况`);
     }
   }
 })()
@@ -318,7 +319,7 @@ function getEid(arr) {
 function getUA(){
   $.UA = `jdapp;iPhone;10.2.0;13.1.2;${randomString(40)};M/5.0;network/wifi;ADID/;model/iPhone8,1;addressid/2308460611;appBuild/167853;jdSupportDarkMode/0;Mozilla/5.0 (iPhone; CPU iPhone OS 13_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1;`
   
-  const flCodeArr = ["SLI8zFT", "SIMHz54", "StIuUgG"];
+  const flCodeArr = ["StM9pHT", "StM9pHT", "StM9pHT"];
   let flCode = flCodeArr[Math.floor(Math.random() * flCodeArr.length)];
   let FLCODE = $.isNode() ? process.env.JD_FLCODE ? process.env.JD_FLCODE : '' : $.getdata("JD_FLCODE") ? $.getdata("JD_FLCODE") : ''
   if (FLCODE) {
