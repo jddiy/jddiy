@@ -1,4 +1,5 @@
 /**
+修改自faker库，自用
 cron 0 20-23/1 * * * jd_babel_red.js
 TG频道：https://t.me/sheeplost
 */
