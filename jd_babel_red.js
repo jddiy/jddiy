@@ -1,5 +1,5 @@
 /**
-cron 0 20-23/1 * * * jd_babel_red.js
+cron 1 20-23/1 * * * jd_babel_red.js
 修改自faker库，自用
 TG频道：https://t.me/sheeplost
 */
