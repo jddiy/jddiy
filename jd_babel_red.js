@@ -1,6 +1,6 @@
 /**
-修改自faker库，自用
 cron 0 20-23/1 * * * jd_babel_red.js
+修改自faker库，自用
 TG频道：https://t.me/sheeplost
 */
 const $ = new Env('会场红包雨');
@@ -82,7 +82,7 @@ function task(functionId, body) {
             "Connection": "keep-alive",
             "Accept": "*/*",
             "User-Agent": UA,
-            "Referer": "https://prodev.m.jd.com/mall/active/dHKkhs2AYLCeCH3tEaHRtC1TnvH/index.html",
+            "Referer": "https://u.jd.com/PKneGS3",
             "Content-Length": "270",
             "Accept-Language": "zh-cn",
         },
@@ -106,7 +106,7 @@ function task(functionId, body) {
 function activeId() {
     return new Promise((resolve) => {
         const option = {
-            url: 'https://u.jd.com/PCnhnFF',
+            url: 'https://prodev.m.jd.com/mall/active/UcLBtK9kh8rA8M2h6pBfhd7rsd7/index.html',
             headers: {
                 "Host": "prodev.m.jd.com",
                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
